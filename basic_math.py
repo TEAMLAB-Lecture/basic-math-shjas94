@@ -107,7 +107,7 @@ def get_median(number_list):
         target = (number_list[len(number_list) // 2] +
                   number_list[len(number_list) // 2 - 1]) / 2
     else:
-        target = number_list[len(number_list) // 2 - 1]
+        target = number_list[len(number_list) // 2]
     median = target
     return median
 
@@ -115,4 +115,4 @@ def get_median(number_list):
 print(get_greatest([10, 33, 22, 99, 33]))
 print(get_smallest([10, 33, 22, 99, 33]))
 print(get_mean([39, 54, 32, 11, 99]))
-print(get_median([39, 54, 32, 11, 99, 5]))
+print(get_median([39, 54, 32, 11, 99]))
