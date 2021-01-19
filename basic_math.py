@@ -114,5 +114,5 @@ def get_median(number_list):
 
 print(get_greatest([10, 33, 22, 99, 33]))
 print(get_smallest([10, 33, 22, 99, 33]))
-print(get_mean([39, 54, 32, 11, 99]))
+print(get_mean([54, 56, 30, 12, 58, 25, 17, 48, 80, 23]))
 print(get_median([39, 54, 32, 11, 99]))
