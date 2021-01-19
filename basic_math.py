@@ -77,7 +77,7 @@ def get_mean(number_list):
     sum_list = 0
     for n in number_list:
         sum_list += n
-    sum_list /= len(number_list)
+    sum_list //= len(number_list)
     mean = sum_list
     return int(mean)
 
